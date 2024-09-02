@@ -9,6 +9,19 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-titulo {
+    margin: 0;
+    font-size: 32px;
 }
 
 .plantio, .beneficios {
@@ -18,6 +31,13 @@ body {
 
 .plantio h2, .beneficios h2 {
     color: #B71C1C;
+    font-size: 28px;
+}
+
+.plantio p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .imagem-plantio {
